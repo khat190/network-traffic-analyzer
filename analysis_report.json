@@ -1,0 +1,29 @@
+{
+    "total_packets": 44,
+    "ip_packets": 44,
+    "protocol_summary": {
+        "TCP": 44,
+        "UDP": 0,
+        "UNKNOWN": 0
+    },
+    "top_source_ips": {
+        "172.16.5.1": 22,
+        "172.16.5.10": 22
+    },
+    "top_destination_ips": {
+        "172.16.5.10": 22,
+        "172.16.5.1": 22
+    },
+    "security_alerts": [
+        {
+            "type": "Port Scan Detected",
+            "source_ip": "172.16.5.1",
+            "unique_ports_scanned": 1
+        },
+        {
+            "type": "Port Scan Detected",
+            "source_ip": "172.16.5.10",
+            "unique_ports_scanned": 1
+        }
+    ]
+}
